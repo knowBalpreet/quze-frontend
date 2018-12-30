@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/knowBalpreet/quze-frontend/precache-manifest.fb0aeaaaab16636861d0035f5361b0ae.js"
+  "/quze-frontend/precache-manifest.b558a629f92dc207cf729b76877c79ab.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/knowBalpreet/quze-frontend/index.html", {
+workbox.routing.registerNavigationRoute("/quze-frontend/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
